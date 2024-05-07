@@ -1,2 +1,2 @@
 # vcpkg_demo_win
-Windows、
+Windows平台上基于vcpkg的测试工程
