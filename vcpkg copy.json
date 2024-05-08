@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "eigen3",
+    "gflags",
+    "glog",
+    "gtest",
+    "lapack",
+    "lua",
+    "protobuf",
+    "suitesparse",
+    "zlib",
+    "abseil",
+    "openblas",
+
+    "flann",
+    "libusb",
+    "pkgconf",
+    "libpng",
+    "qhull",
+    "boost-filesystem",
+    "boost-date_time",
+    "boost-iostreams",
+    "boost-system"
+  ],
+  "overrides": [
+    {
+      "name": "abseil",
+      "version-string": "20211102.1"
+    },
+    {
+      "name": "protobuf",
+      "version-string": "3.8.0"
+    },
+    {
+      "name": "lua",
+      "version-string": "5.3.3"
+    },
+    {
+      "name": "eigen3",
+      "version-string": "3.4.0"
+    },
+    {
+      "name": "gflags",
+      "version-string": "2.2.2#6"
+    },
+    {
+      "name": "glog",
+      "version-string": "0.6.0#2"
+    },
+    {
+      "name": "gtest",
+      "version-string": "1.14.0"
+    },
+    {
+      "name": "openblas",
+      "version-string": "0.3.24"
+    }
+  ],
+  "builtin-baseline": "fe1e9f508ee13ed3d0a7d318beac7efe1ec4f9d7"
+}

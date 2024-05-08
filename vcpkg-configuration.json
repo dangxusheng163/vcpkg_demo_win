@@ -1,0 +1,15 @@
+{
+    "default-registry": {
+      "kind": "git",
+      "repository": "https://github.com/Microsoft/vcpkg",
+      "baseline": "4e5e6b3fa66f0c52be86f7034792f45f959ec582"
+    },
+    "registries": [
+      {
+        "kind": "git",
+        "repository": "https://github.com/Microsoft/vcpkg",
+        "baseline": "8ccb84df727bdf83045e53c319af05c554838b80",
+        "packages": [ "boost*", "boost-*"]
+      }
+    ]
+  }
